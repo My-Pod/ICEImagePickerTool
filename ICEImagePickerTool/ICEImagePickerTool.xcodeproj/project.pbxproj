@@ -18,6 +18,8 @@
 		17C92FE51D2D180E00DE4838 /* ICEImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */; };
 		17C92FE71D2D1A3500DE4838 /* ICEImagePickerTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */; };
 		17C92FEB1D2D1B8E00DE4838 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FEA1D2D1B8E00DE4838 /* Podfile */; };
+		17C92FEE1D2D1E0600DE4838 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FEC1D2D1E0600DE4838 /* LICENSE */; };
+		17C92FEF1D2D1E0600DE4838 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FED1D2D1E0600DE4838 /* README.md */; };
 		47F339292A5BE293FE0F8B48 /* libPods-ICEImagePickerTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F714A890543A870D1B1CAC /* libPods-ICEImagePickerTool.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEImagePickerTool.m; sourceTree = "<group>"; };
 		17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICEImagePickerTool.podspec; path = ../ICEImagePickerTool.podspec; sourceTree = "<group>"; };
 		17C92FEA1D2D1B8E00DE4838 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		17C92FEC1D2D1E0600DE4838 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		17C92FED1D2D1E0600DE4838 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A3DBD5282687BBE2A393137E /* Pods-ICEImagePickerTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICEImagePickerTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICEImagePickerTool/Pods-ICEImagePickerTool.release.xcconfig"; sourceTree = "<group>"; };
 		C1F714A890543A870D1B1CAC /* libPods-ICEImagePickerTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICEImagePickerTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */,
+				17C92FEC1D2D1E0600DE4838 /* LICENSE */,
+				17C92FED1D2D1E0600DE4838 /* README.md */,
 				17C92FE21D2D17FC00DE4838 /* Classes */,
 				17C92FAE1D2D17E700DE4838 /* ICEImagePickerTool */,
 				17C92FC81D2D17E700DE4838 /* ICEImagePickerToolTests */,
@@ -290,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C92FEE1D2D1E0600DE4838 /* LICENSE in Resources */,
 				17C92FEB1D2D1B8E00DE4838 /* Podfile in Resources */,
 				17C92FE71D2D1A3500DE4838 /* ICEImagePickerTool.podspec in Resources */,
 				17C92FBF1D2D17E700DE4838 /* LaunchScreen.storyboard in Resources */,
@@ -369,6 +376,7 @@
 			files = (
 				17C92FB71D2D17E700DE4838 /* ViewController.m in Sources */,
 				17C92FB41D2D17E700DE4838 /* AppDelegate.m in Sources */,
+				17C92FEF1D2D1E0600DE4838 /* README.md in Sources */,
 				17C92FB11D2D17E700DE4838 /* main.m in Sources */,
 				17C92FE51D2D180E00DE4838 /* ICEImagePickerTool.m in Sources */,
 			);
