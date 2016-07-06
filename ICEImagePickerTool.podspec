@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ICEImagePickerTool'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = '封装对相册和相机的一些常用操作'
 s.description      = <<-DESC
 TODO: 封装对相册和相机的一些操作, 现有打开相册获取图片,打开相机获取图片

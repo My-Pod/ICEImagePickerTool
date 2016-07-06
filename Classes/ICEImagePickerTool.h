@@ -26,7 +26,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
 /**
  *  类方法
  */
-+ (instancetype)ICEImagePickerTool;
++ (instancetype)imagePickerTool;
 
 
 
@@ -35,7 +35,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
  *
  *  @param completion 选择图片后的回调
  */
-- (void)openPhotoAlbum:(GetImageBlock)completion;
++ (void)openPhotoAlbum:(GetImageBlock)completion;
 
 
 /**
@@ -43,7 +43,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
  *
  *  @param completion 拍照后返回照片
  */
-- (void)openCamera:(GetImageBlock)completion;
++ (void)openCamera:(GetImageBlock)completion;
 
 /**
  *  打开相册
@@ -51,7 +51,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
  *  @param parments   对相册的一些参数
  *  @param completion 选择图片后的回调
  */
-- (void)openPhotoAlbum:(NSDictionary *)parments
++ (void)openPhotoAlbum:(NSDictionary *)parments
             completion:(GetImageBlock)completion;
 
 
@@ -61,7 +61,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
  *  @param parments   对相册设置的一些参数
  *  @param completion 保存后的回调
  */
-- (void)openCamera:(NSDictionary *)parments
++ (void)openCamera:(NSDictionary *)parments
         completion:(GetImageBlock)completion;
 
 

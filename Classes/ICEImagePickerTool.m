@@ -25,7 +25,7 @@ typedef  void (^RetainBlock) ();
 
 @implementation ICEImagePickerTool
 
-+ (instancetype)ICEImagePickerTool{
++ (instancetype)imagePickerTool{
     return [[ICEImagePickerTool alloc] init];
 }
 
@@ -157,24 +157,29 @@ typedef  void (^RetainBlock) ();
 
 
 
-- (void)openCamera:(GetImageBlock)completion{
-    self.cameraBlock = completion;
-    [self p_openCamearOnViewConreoller:nil];
++ (void)openCamera:(GetImageBlock)completion{
+     ICEImagePickerTool *pickerTool = [ICEImagePickerTool imagePickerTool];
+     pickerTool.cameraBlock = completion;
+    [pickerTool p_openCamearOnViewConreoller:nil];
 }
 
-- (void)openCamera:(NSDictionary *)parments completion:(GetImageBlock)completion{
-    self.cameraBlock = completion;
-    [self p_openCamearOnViewConreoller:parments];
++ (void)openCamera:(NSDictionary *)parments completion:(GetImageBlock)completion{
+    ICEImagePickerTool *pickerTool = [ICEImagePickerTool imagePickerTool];
+    pickerTool.cameraBlock = completion;
+    [pickerTool p_openCamearOnViewConreoller:parments];
 }
 
-- (void)openPhotoAlbum:(GetImageBlock)completion{
-    self.photoAlbumBlock = completion;
-    [self p_showImagePictureOnViewController:nil];
++ (void)openPhotoAlbum:(GetImageBlock)completion{
+    ICEImagePickerTool *pickerTool = [ICEImagePickerTool imagePickerTool];
+
+    pickerTool.photoAlbumBlock = completion;
+    [pickerTool p_showImagePictureOnViewController:nil];
 }
 
-- (void)openPhotoAlbum:(NSDictionary *)parments completion:(GetImageBlock)completion{
-    self.photoAlbumBlock = completion;
-    [self p_showImagePictureOnViewController:parments];
++ (void)openPhotoAlbum:(NSDictionary *)parments completion:(GetImageBlock)completion{
+    ICEImagePickerTool *pickerTool = [ICEImagePickerTool imagePickerTool];
+    pickerTool.photoAlbumBlock = completion;
+    [pickerTool p_showImagePictureOnViewController:parments];
 }
 
 
