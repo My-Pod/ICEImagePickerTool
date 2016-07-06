@@ -26,7 +26,7 @@ typedef void (^GetImageBlock) (NSDictionary *imageInfo);
 /**
  *  类方法
  */
-+ (instancetype)imagePickerController;
++ (instancetype)ICEImagePickerTool;
 
 
 

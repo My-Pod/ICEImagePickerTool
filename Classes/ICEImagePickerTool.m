@@ -8,6 +8,7 @@
 
 #import "ICEImagePickerTool.h"
 #import <UIKit/UIKit.h>
+#import "ICEPhotoLibrary.h"
 
 //为了管理当前对象的生命周期
 typedef  void (^RetainBlock) ();
@@ -24,7 +25,7 @@ typedef  void (^RetainBlock) ();
 
 @implementation ICEImagePickerTool
 
-+ (instancetype)imagePickerController{
++ (instancetype)ICEImagePickerTool{
     return [[ICEImagePickerTool alloc] init];
 }
 
@@ -114,31 +115,31 @@ typedef  void (^RetainBlock) ();
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
     
-//    NSString *key = UIImagePickerControllerOriginalImage;
-    //拍照时 保存照片
-//    if (picker.sourceType == 1) {
+    NSString *key = UIImagePickerControllerOriginalImage;
+//    拍照时 保存照片
+    if (picker.sourceType == 1) {
     
-//        UIImage *image = info[key] ;
+        UIImage *image = info[key] ;
         
-//        //保存照片
-//        [ICEPhotoLibrary saveImage:image toAlbum:@"ICE" success:^(NSString *imageURL) {
-//            self.cameraBlock( @{@"errCode" : @(1), @"errMsg" : @"保存成功",@"imageURL":imageURL});
-//            _retainBlock = nil; //解除保留环, 释放对象
-//            
-//        } failure:^ (NSString *errMsg){
-//            self.cameraBlock( @{@"errCode" : @(1), @"errMsg" : @"保存失败"});
-//            _retainBlock = nil; //解除保留环, 释放对象
-//        }];
+        //保存照片
+        [ICEPhotoLibrary saveImage:image toAlbum:@"ICE" success:^(NSString *imageURL) {
+            self.cameraBlock( @{@"errCode" : @(1), @"errMsg" : @"保存成功",@"imageURL":imageURL});
+            _retainBlock = nil; //解除保留环, 释放对象
+            
+        } failure:^ (NSString *errMsg){
+            self.cameraBlock( @{@"errCode" : @(1), @"errMsg" : @"保存失败"});
+            _retainBlock = nil; //解除保留环, 释放对象
+        }];
         
-//    }else{
-//        
-//        NSURL *url = info[@"UIImagePickerControllerReferenceURL"];
-//        NSString *urlStr = url.absoluteString;
-//        self.photoAlbumBlock( @{@"errCode" : @(1), @"errMsg" : @"保存成功",@"imageURL":urlStr});
-//        _retainBlock = nil; //解除保留环, 释放对象
-//        
-//    }
-//    
+    }else{
+        
+        NSURL *url = info[@"UIImagePickerControllerReferenceURL"];
+        NSString *urlStr = url.absoluteString;
+        self.photoAlbumBlock( @{@"errCode" : @(1), @"errMsg" : @"保存成功",@"imageURL":urlStr});
+        _retainBlock = nil; //解除保留环, 释放对象
+        
+    }
+    
     [self p_pushNotifaction:NO];
     [picker dismissViewControllerAnimated:YES completion:nil];
     

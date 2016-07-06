@@ -1,0 +1,5 @@
+target 'ICEImagePickerTool' do
+
+pod 'ICEPhotoLibrary'
+
+end

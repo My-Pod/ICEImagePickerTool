@@ -16,6 +16,9 @@
 		17C92FCA1D2D17E700DE4838 /* ICEImagePickerToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FC91D2D17E700DE4838 /* ICEImagePickerToolTests.m */; };
 		17C92FD51D2D17E700DE4838 /* ICEImagePickerToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FD41D2D17E700DE4838 /* ICEImagePickerToolUITests.m */; };
 		17C92FE51D2D180E00DE4838 /* ICEImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */; };
+		17C92FE71D2D1A3500DE4838 /* ICEImagePickerTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */; };
+		17C92FEB1D2D1B8E00DE4838 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FEA1D2D1B8E00DE4838 /* Podfile */; };
+		47F339292A5BE293FE0F8B48 /* libPods-ICEImagePickerTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F714A890543A870D1B1CAC /* libPods-ICEImagePickerTool.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11840F044402417072690864 /* Pods-ICEImagePickerTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICEImagePickerTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICEImagePickerTool/Pods-ICEImagePickerTool.debug.xcconfig"; sourceTree = "<group>"; };
 		17C92FAC1D2D17E700DE4838 /* ICEImagePickerTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICEImagePickerTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C92FB01D2D17E700DE4838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17C92FB21D2D17E700DE4838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		17C92FD61D2D17E700DE4838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17C92FE31D2D180E00DE4838 /* ICEImagePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEImagePickerTool.h; sourceTree = "<group>"; };
 		17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEImagePickerTool.m; sourceTree = "<group>"; };
+		17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ICEImagePickerTool.podspec; path = ../ICEImagePickerTool.podspec; sourceTree = "<group>"; };
+		17C92FEA1D2D1B8E00DE4838 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		A3DBD5282687BBE2A393137E /* Pods-ICEImagePickerTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICEImagePickerTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICEImagePickerTool/Pods-ICEImagePickerTool.release.xcconfig"; sourceTree = "<group>"; };
+		C1F714A890543A870D1B1CAC /* libPods-ICEImagePickerTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICEImagePickerTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F339292A5BE293FE0F8B48 /* libPods-ICEImagePickerTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,11 +93,14 @@
 		17C92FA31D2D17E700DE4838 = {
 			isa = PBXGroup;
 			children = (
+				17C92FE61D2D1A3500DE4838 /* ICEImagePickerTool.podspec */,
 				17C92FE21D2D17FC00DE4838 /* Classes */,
 				17C92FAE1D2D17E700DE4838 /* ICEImagePickerTool */,
 				17C92FC81D2D17E700DE4838 /* ICEImagePickerToolTests */,
 				17C92FD31D2D17E700DE4838 /* ICEImagePickerToolUITests */,
 				17C92FAD1D2D17E700DE4838 /* Products */,
+				EB1E33FCFFA516EA1FB3FE16 /* Pods */,
+				8FEC58138ACC0B2E525679B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +125,7 @@
 				17C92FBB1D2D17E700DE4838 /* Assets.xcassets */,
 				17C92FBD1D2D17E700DE4838 /* LaunchScreen.storyboard */,
 				17C92FC01D2D17E700DE4838 /* Info.plist */,
+				17C92FEA1D2D1B8E00DE4838 /* Podfile */,
 				17C92FAF1D2D17E700DE4838 /* Supporting Files */,
 			);
 			path = ICEImagePickerTool;
@@ -154,6 +167,23 @@
 			path = ../Classes;
 			sourceTree = "<group>";
 		};
+		8FEC58138ACC0B2E525679B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F714A890543A870D1B1CAC /* libPods-ICEImagePickerTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB1E33FCFFA516EA1FB3FE16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11840F044402417072690864 /* Pods-ICEImagePickerTool.debug.xcconfig */,
+				A3DBD5282687BBE2A393137E /* Pods-ICEImagePickerTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17C92FD91D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerTool" */;
 			buildPhases = (
+				53BFAAA47159E21025A5AB54 /* [CP] Check Pods Manifest.lock */,
 				17C92FA81D2D17E700DE4838 /* Sources */,
 				17C92FA91D2D17E700DE4838 /* Frameworks */,
 				17C92FAA1D2D17E700DE4838 /* Resources */,
+				5F64E1F6CDBD80E0560A2476 /* [CP] Embed Pods Frameworks */,
+				721FFDECCA124EEDF82B87BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C92FEB1D2D1B8E00DE4838 /* Podfile in Resources */,
+				17C92FE71D2D1A3500DE4838 /* ICEImagePickerTool.podspec in Resources */,
 				17C92FBF1D2D17E700DE4838 /* LaunchScreen.storyboard in Resources */,
 				17C92FBC1D2D17E700DE4838 /* Assets.xcassets in Resources */,
 				17C92FBA1D2D17E700DE4838 /* Main.storyboard in Resources */,
@@ -278,6 +313,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53BFAAA47159E21025A5AB54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F64E1F6CDBD80E0560A2476 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICEImagePickerTool/Pods-ICEImagePickerTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721FFDECCA124EEDF82B87BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICEImagePickerTool/Pods-ICEImagePickerTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17C92FA81D2D17E700DE4838 /* Sources */ = {
@@ -426,6 +509,7 @@
 		};
 		17C92FDA1D2D17E700DE4838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11840F044402417072690864 /* Pods-ICEImagePickerTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICEImagePickerTool/Info.plist;
@@ -437,6 +521,7 @@
 		};
 		17C92FDB1D2D17E700DE4838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3DBD5282687BBE2A393137E /* Pods-ICEImagePickerTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ICEImagePickerTool/Info.plist;
@@ -513,6 +598,7 @@
 				17C92FDB1D2D17E700DE4838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17C92FDC1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +607,7 @@
 				17C92FDE1D2D17E700DE4838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17C92FDF1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +616,7 @@
 				17C92FE11D2D17E700DE4838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
