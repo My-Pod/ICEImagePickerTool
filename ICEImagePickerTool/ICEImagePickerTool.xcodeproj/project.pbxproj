@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C92FB11D2D17E700DE4838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FB01D2D17E700DE4838 /* main.m */; };
+		17C92FB41D2D17E700DE4838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FB31D2D17E700DE4838 /* AppDelegate.m */; };
+		17C92FB71D2D17E700DE4838 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FB61D2D17E700DE4838 /* ViewController.m */; };
+		17C92FBA1D2D17E700DE4838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FB81D2D17E700DE4838 /* Main.storyboard */; };
+		17C92FBC1D2D17E700DE4838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FBB1D2D17E700DE4838 /* Assets.xcassets */; };
+		17C92FBF1D2D17E700DE4838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C92FBD1D2D17E700DE4838 /* LaunchScreen.storyboard */; };
+		17C92FCA1D2D17E700DE4838 /* ICEImagePickerToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FC91D2D17E700DE4838 /* ICEImagePickerToolTests.m */; };
+		17C92FD51D2D17E700DE4838 /* ICEImagePickerToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FD41D2D17E700DE4838 /* ICEImagePickerToolUITests.m */; };
+		17C92FE51D2D180E00DE4838 /* ICEImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C92FC61D2D17E700DE4838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C92FA41D2D17E700DE4838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C92FAB1D2D17E700DE4838;
+			remoteInfo = ICEImagePickerTool;
+		};
+		17C92FD11D2D17E700DE4838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C92FA41D2D17E700DE4838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C92FAB1D2D17E700DE4838;
+			remoteInfo = ICEImagePickerTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C92FAC1D2D17E700DE4838 /* ICEImagePickerTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICEImagePickerTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C92FB01D2D17E700DE4838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C92FB21D2D17E700DE4838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17C92FB31D2D17E700DE4838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17C92FB51D2D17E700DE4838 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17C92FB61D2D17E700DE4838 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17C92FB91D2D17E700DE4838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C92FBB1D2D17E700DE4838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C92FBE1D2D17E700DE4838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C92FC01D2D17E700DE4838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C92FC51D2D17E700DE4838 /* ICEImagePickerToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICEImagePickerToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C92FC91D2D17E700DE4838 /* ICEImagePickerToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEImagePickerToolTests.m; sourceTree = "<group>"; };
+		17C92FCB1D2D17E700DE4838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C92FD01D2D17E700DE4838 /* ICEImagePickerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICEImagePickerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C92FD41D2D17E700DE4838 /* ICEImagePickerToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICEImagePickerToolUITests.m; sourceTree = "<group>"; };
+		17C92FD61D2D17E700DE4838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C92FE31D2D180E00DE4838 /* ICEImagePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEImagePickerTool.h; sourceTree = "<group>"; };
+		17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEImagePickerTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C92FA91D2D17E700DE4838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FC21D2D17E700DE4838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FCD1D2D17E700DE4838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C92FA31D2D17E700DE4838 = {
+			isa = PBXGroup;
+			children = (
+				17C92FE21D2D17FC00DE4838 /* Classes */,
+				17C92FAE1D2D17E700DE4838 /* ICEImagePickerTool */,
+				17C92FC81D2D17E700DE4838 /* ICEImagePickerToolTests */,
+				17C92FD31D2D17E700DE4838 /* ICEImagePickerToolUITests */,
+				17C92FAD1D2D17E700DE4838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C92FAD1D2D17E700DE4838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FAC1D2D17E700DE4838 /* ICEImagePickerTool.app */,
+				17C92FC51D2D17E700DE4838 /* ICEImagePickerToolTests.xctest */,
+				17C92FD01D2D17E700DE4838 /* ICEImagePickerToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C92FAE1D2D17E700DE4838 /* ICEImagePickerTool */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FB21D2D17E700DE4838 /* AppDelegate.h */,
+				17C92FB31D2D17E700DE4838 /* AppDelegate.m */,
+				17C92FB51D2D17E700DE4838 /* ViewController.h */,
+				17C92FB61D2D17E700DE4838 /* ViewController.m */,
+				17C92FB81D2D17E700DE4838 /* Main.storyboard */,
+				17C92FBB1D2D17E700DE4838 /* Assets.xcassets */,
+				17C92FBD1D2D17E700DE4838 /* LaunchScreen.storyboard */,
+				17C92FC01D2D17E700DE4838 /* Info.plist */,
+				17C92FAF1D2D17E700DE4838 /* Supporting Files */,
+			);
+			path = ICEImagePickerTool;
+			sourceTree = "<group>";
+		};
+		17C92FAF1D2D17E700DE4838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FB01D2D17E700DE4838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C92FC81D2D17E700DE4838 /* ICEImagePickerToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FC91D2D17E700DE4838 /* ICEImagePickerToolTests.m */,
+				17C92FCB1D2D17E700DE4838 /* Info.plist */,
+			);
+			path = ICEImagePickerToolTests;
+			sourceTree = "<group>";
+		};
+		17C92FD31D2D17E700DE4838 /* ICEImagePickerToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FD41D2D17E700DE4838 /* ICEImagePickerToolUITests.m */,
+				17C92FD61D2D17E700DE4838 /* Info.plist */,
+			);
+			path = ICEImagePickerToolUITests;
+			sourceTree = "<group>";
+		};
+		17C92FE21D2D17FC00DE4838 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17C92FE31D2D180E00DE4838 /* ICEImagePickerTool.h */,
+				17C92FE41D2D180E00DE4838 /* ICEImagePickerTool.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C92FAB1D2D17E700DE4838 /* ICEImagePickerTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C92FD91D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerTool" */;
+			buildPhases = (
+				17C92FA81D2D17E700DE4838 /* Sources */,
+				17C92FA91D2D17E700DE4838 /* Frameworks */,
+				17C92FAA1D2D17E700DE4838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICEImagePickerTool;
+			productName = ICEImagePickerTool;
+			productReference = 17C92FAC1D2D17E700DE4838 /* ICEImagePickerTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C92FC41D2D17E700DE4838 /* ICEImagePickerToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C92FDC1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolTests" */;
+			buildPhases = (
+				17C92FC11D2D17E700DE4838 /* Sources */,
+				17C92FC21D2D17E700DE4838 /* Frameworks */,
+				17C92FC31D2D17E700DE4838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C92FC71D2D17E700DE4838 /* PBXTargetDependency */,
+			);
+			name = ICEImagePickerToolTests;
+			productName = ICEImagePickerToolTests;
+			productReference = 17C92FC51D2D17E700DE4838 /* ICEImagePickerToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C92FCF1D2D17E700DE4838 /* ICEImagePickerToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C92FDF1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolUITests" */;
+			buildPhases = (
+				17C92FCC1D2D17E700DE4838 /* Sources */,
+				17C92FCD1D2D17E700DE4838 /* Frameworks */,
+				17C92FCE1D2D17E700DE4838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C92FD21D2D17E700DE4838 /* PBXTargetDependency */,
+			);
+			name = ICEImagePickerToolUITests;
+			productName = ICEImagePickerToolUITests;
+			productReference = 17C92FD01D2D17E700DE4838 /* ICEImagePickerToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C92FA41D2D17E700DE4838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ICE;
+				TargetAttributes = {
+					17C92FAB1D2D17E700DE4838 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					17C92FC41D2D17E700DE4838 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17C92FAB1D2D17E700DE4838;
+					};
+					17C92FCF1D2D17E700DE4838 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 17C92FAB1D2D17E700DE4838;
+					};
+				};
+			};
+			buildConfigurationList = 17C92FA71D2D17E700DE4838 /* Build configuration list for PBXProject "ICEImagePickerTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C92FA31D2D17E700DE4838;
+			productRefGroup = 17C92FAD1D2D17E700DE4838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C92FAB1D2D17E700DE4838 /* ICEImagePickerTool */,
+				17C92FC41D2D17E700DE4838 /* ICEImagePickerToolTests */,
+				17C92FCF1D2D17E700DE4838 /* ICEImagePickerToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C92FAA1D2D17E700DE4838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C92FBF1D2D17E700DE4838 /* LaunchScreen.storyboard in Resources */,
+				17C92FBC1D2D17E700DE4838 /* Assets.xcassets in Resources */,
+				17C92FBA1D2D17E700DE4838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FC31D2D17E700DE4838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FCE1D2D17E700DE4838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C92FA81D2D17E700DE4838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C92FB71D2D17E700DE4838 /* ViewController.m in Sources */,
+				17C92FB41D2D17E700DE4838 /* AppDelegate.m in Sources */,
+				17C92FB11D2D17E700DE4838 /* main.m in Sources */,
+				17C92FE51D2D180E00DE4838 /* ICEImagePickerTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FC11D2D17E700DE4838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C92FCA1D2D17E700DE4838 /* ICEImagePickerToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C92FCC1D2D17E700DE4838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C92FD51D2D17E700DE4838 /* ICEImagePickerToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C92FC71D2D17E700DE4838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C92FAB1D2D17E700DE4838 /* ICEImagePickerTool */;
+			targetProxy = 17C92FC61D2D17E700DE4838 /* PBXContainerItemProxy */;
+		};
+		17C92FD21D2D17E700DE4838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C92FAB1D2D17E700DE4838 /* ICEImagePickerTool */;
+			targetProxy = 17C92FD11D2D17E700DE4838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C92FB81D2D17E700DE4838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C92FB91D2D17E700DE4838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C92FBD1D2D17E700DE4838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C92FBE1D2D17E700DE4838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C92FD71D2D17E700DE4838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C92FD81D2D17E700DE4838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C92FDA1D2D17E700DE4838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICEImagePickerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17C92FDB1D2D17E700DE4838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ICEImagePickerTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17C92FDD1D2D17E700DE4838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICEImagePickerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICEImagePickerTool.app/ICEImagePickerTool";
+			};
+			name = Debug;
+		};
+		17C92FDE1D2D17E700DE4838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICEImagePickerToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICEImagePickerTool.app/ICEImagePickerTool";
+			};
+			name = Release;
+		};
+		17C92FE01D2D17E700DE4838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICEImagePickerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICEImagePickerTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17C92FE11D2D17E700DE4838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICEImagePickerToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICE.ICEImagePickerToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICEImagePickerTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C92FA71D2D17E700DE4838 /* Build configuration list for PBXProject "ICEImagePickerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C92FD71D2D17E700DE4838 /* Debug */,
+				17C92FD81D2D17E700DE4838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C92FD91D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C92FDA1D2D17E700DE4838 /* Debug */,
+				17C92FDB1D2D17E700DE4838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C92FDC1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C92FDD1D2D17E700DE4838 /* Debug */,
+				17C92FDE1D2D17E700DE4838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17C92FDF1D2D17E700DE4838 /* Build configuration list for PBXNativeTarget "ICEImagePickerToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C92FE01D2D17E700DE4838 /* Debug */,
+				17C92FE11D2D17E700DE4838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C92FA41D2D17E700DE4838 /* Project object */;
+}
